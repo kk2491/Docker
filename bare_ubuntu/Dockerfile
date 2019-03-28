@@ -7,5 +7,7 @@ ENV HOME /root
 # Define working directory.
 WORKDIR /root
 
+#ADD . /root
+
 # Define default command.
 CMD ["bash"]
