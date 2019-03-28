@@ -1,5 +1,5 @@
 ### Part 2:
-
+```
 docker build -t friendlyhello .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyhello  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyhello         # Same thing, but in detached mode
@@ -16,3 +16,4 @@ docker login             # Log in this CLI session using your Docker credentials
 docker tag <image> username/repository:tag  # Tag <image> for upload to registry
 docker push username/repository:tag            # Upload tagged image to registry
 docker run username/repository:tag                   # Run image from a registry
+```
